@@ -1,6 +1,5 @@
 package com.zoologico.springzoo.dto;
 
-public class EspecieResponse (
-        
-){
+public record EspecieResponse(Long id, String nomePopular, String nomeCientifico) {
 }
+
